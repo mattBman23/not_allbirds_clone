@@ -3,7 +3,7 @@ import React from "react";
 
 export const NavigationBar = () => {
   return (
-    <header className="flex px-5 py-3 items-center justify-between bg-white relative">
+    <header className="z-10 sticky top-0 flex px-5 py-3 items-center justify-between bg-white">
       <div className="absolute inset-0 shadow-lg opacity-50"></div>
       <div className="flex">
         <button className="h-8 w-8">

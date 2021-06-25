@@ -12,8 +12,8 @@ export const CategoryList = () => {
   ];
 
   return (
-    <div className="bg-gray-100  py-3 overflow-x-auto scrollbars-hidden">
-      <div className="px-8 text-sm inline-flex space-x-5">
+    <div className="bg-gray-100 py-3 overflow-x-auto scrollbars-hidden">
+      <div className="px-8 text-sm inline-flex space-x-5 md:px-12">
         {categories.map((category, idx) => (
           <a key={idx} href="#" className="text-gray-800 whitespace-nowrap">
             {category}

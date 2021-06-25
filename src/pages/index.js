@@ -53,6 +53,35 @@ export default function Home() {
         </div>
         <SeasonalBanner />
       </main>
+      <footer className="bg-gray-800 py-12">
+        <div className="px-6">
+          <form action="#">
+            <div>
+              <label
+                htmlFor="email_address"
+                className="block text-white text-sm font-medium"
+              >
+                Enter your email to stay in touch!
+              </label>
+              <div className="mt-1 relative">
+                <input
+                  type="text"
+                  className="block w-full bg-gray-700 text-white border-2 border-transparent focus:border-white focus:ring-0 transition"
+                />
+                <div className="absolute inset-0 border-b-2 border-white pointer-events-none"></div>
+              </div>
+            </div>
+            <div className="mt-6">
+              <button
+                type="submit"
+                className="px-4 py-3 rounded hover:bg-white hover:text-gray-700 focus:outline-none bg-gray-700 font-bold text-sm uppercase tracking-widest text-white w-full"
+              >
+                Sign Up
+              </button>
+            </div>
+          </form>
+        </div>
+      </footer>
     </div>
   );
 }
