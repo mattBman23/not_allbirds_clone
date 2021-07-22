@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="font-poppins">
       <Head>
-        <title>Allbirds</title>
+        <title>Allbirds TODAY</title>
       </Head>
 
       <BannerMessage />
